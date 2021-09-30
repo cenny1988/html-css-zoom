@@ -77,21 +77,12 @@
     justify-content: space-between;
     align-items: center;
 }
-.nav-sx{
-    /* height: 50%;
-    width: 25%; */
+.nav-sx, .nav-center{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    /* background-color: aquamarine; */
 }
-.nav-center{
-    height: 50%;
-    width: 25%;
-    /* debug */
-    background-color: aquamarine;
-}
+
 #end-call{
     height: 100%;
     padding: 0 20px;
