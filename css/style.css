@@ -98,6 +98,9 @@
     cursor: pointer;
     margin-right: 10px;
 }
+.fas.active i{
+    color: greenyellow;
+}
 
 #tools span{
     display: block;
