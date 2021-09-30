@@ -40,24 +40,33 @@
     top: 10px;
     right: 10px;
     color: #fff;
-
-    font-size: large;
-    
-
-    /* height: 30px;
-    width: 300px; */
-
+    font-size: x-small;
 }
+
 #setting div{
     border-radius: 5px;
     display: inline-block;
     background-color: #4a4b4c;
     padding: 2px 10px;
-
-    /* height: 100%; */
 }
 
-
+    /* icone pagine */
+.pages{
+    position: absolute;
+    top: 50%;
+    color: #7b7c7c;
+    font-size: 30px;
+    text-align: center;
+}
+#left-p{
+    left: 10px;
+}
+#right-p{
+    right: 10px;
+}
+.pages>div{
+    font-size: small;
+}
 
 /* sezione tools e menu di nav */
 #tools{
