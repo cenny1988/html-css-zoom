@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+}
+/* sezione voew globali */
+#view{
+    height: calc(100vh - 50px);
+    background-color: #000;
+    padding: 50px 80px;
+}
+.container{
+    height: 100%;
+
+    /* debug */
+    background-color: #fff;
+}
+
+
+/* sezione tools e menu di nav */
+#tools{
+    height: 50px;
+    background-color: #212324;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-sx{
+    /* height: 50%;
+    width: 25%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    /* background-color: aquamarine; */
+}
+.nav-center{
+    height: 50%;
+    width: 25%;
+    /* debug */
+    background-color: aquamarine;
+}
+#end-call{
+    height: 100%;
+    padding: 0 20px;
+    cursor: pointer;
+    background-color: #4a4b4c; 
+    color:  red;
+    display: flex;
+    align-items: center;
+    /* font-size: 10px; */
+}
+#end-call span{
+    /* color:  red; */
+    /* font-size: 10px; */
+    
+}
+#tools i{
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    /* display: block; */
+}
+#tools span{
+    display: block;
+    font-size: 10px;
+}
+.icon{
+    margin: 4px 10px;
+    text-align: center;
+    /* debug */
+    /* background-color: coral; */
+    /* width: 25px;
+    height: 15px; */
+}
+#tools a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
